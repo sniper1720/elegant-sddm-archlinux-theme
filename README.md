@@ -5,6 +5,6 @@ a simple and elegant sddm theme for archlinux
 
 Manual Installation
 
-    copy the folder to /usr/share/apps/sddm/themes/
+    copy the folder elegant-archlinux  to /usr/share/apps/sddm/themes/
     change CurrentTheme to elegant-archlinux in /etc/sddm.conf
     Have fun!
