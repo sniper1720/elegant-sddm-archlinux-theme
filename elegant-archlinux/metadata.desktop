@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=Arch Linux Simply Black
-Description=A simple SDDM theme for Arch Linux.
+Name=Elegant Arch Linux
+Description=A simple and elegant SDDM theme for Arch Linux.
 Screenshot=screenshot.png
 License=CC-BY-SA
 Type=sddm-theme
@@ -9,5 +9,5 @@ Screenshot=screenshot.png
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Theme-Id=archlinux-simplyblack
+Theme-Id=elegant-archlinux
 Theme-API=2.0
