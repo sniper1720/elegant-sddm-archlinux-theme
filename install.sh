@@ -67,7 +67,7 @@ if git clone "$REPO_URL" "$TEMP_DIR"; then
 
     cp -r "$TEMP_DIR/$THEME_NAME" "$THEME_DIR"
     
-    read -p "Do you want to activate the theme now? [y/N] " -n 1 -r
+    read -p "Do you want to activate the theme now? [y/N] " -n 1 -r < /dev/tty
     echo
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         CONFIG_DIR="/etc/sddm.conf.d"
