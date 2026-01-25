@@ -4,7 +4,7 @@
 
 Originally released in 2016, I have completely modernized **Elegant Arch Linux** SDDM theme to meet today's standards while keeping the classic elegance you love.
 
-Rebuilt from the ground up with **Qt 6**, it is now faster, smoother, and fully future-proof. Whether you are on a standard laptop or a 4K monitor, it scales perfectly.
+Rebuilt from the ground up with **Qt 6**, it is now faster and smoother. Whether you are on a standard laptop or a 4K monitor, it scales perfectly.
 
 ## Features
 
