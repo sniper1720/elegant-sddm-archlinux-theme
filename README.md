@@ -20,7 +20,7 @@ Rebuilt from the ground up with **Qt 6**, it is now faster and smoother. Whether
 
 Run this command to automatically install dependencies and setup the theme on **Arch Linux, Fedora, Ubuntu/Debian, and openSUSE**:
 ```bash
-curl -s https://raw.githubusercontent.com/sniper1720/elegant-sddm-archlinux-theme/main/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/sniper1720/elegant-sddm-archlinux-theme/main/install.sh | sudo bash
 ```
 
 ### Manual Installation
