@@ -72,7 +72,7 @@ Rectangle {
 
                 Keys.onPressed: (event) => {
                     if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-                        sddm.login(name.text, password.text, session.index)
+                        sddm.login(name.text, password.text, session.currentIndex)
                         event.accepted = true
                     }
                 }
@@ -122,7 +122,7 @@ Rectangle {
 
                 Keys.onPressed: (event) => {
                     if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-                        sddm.login(name.text, password.text, session.index)
+                        sddm.login(name.text, password.text, session.currentIndex)
                         event.accepted = true
                     }
                 }
@@ -301,7 +301,7 @@ Rectangle {
                     border.width: loginButton.hovered ? Math.max(1, loginPanel.height / 500) : 0
                 }
 
-                onClicked: sddm.login(name.text, password.text, session.index)
+                onClicked: sddm.login(name.text, password.text, session.currentIndex)
 
                 KeyNavigation.tab: shutdownButton
             }
