@@ -97,7 +97,7 @@ Every bit of support helps keep the project alive and ensures I can spend more t
 
 This project wouldn't be possible without the community.
 
--   **Inspiration**: Inspired by the work of [Guidobelix](mailto:guidobelix@hotmail.it).
+-   **Inspiration**: Inspired by the work of Guidobelix.
 -   **Built by**: Djalel (sniper1720).
 
 ## License
