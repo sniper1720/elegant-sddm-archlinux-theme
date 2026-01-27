@@ -59,7 +59,7 @@ Rectangle {
             anchors.verticalCenterOffset: -4 * height / 2
             anchors.horizontalCenterOffset: +4.5 * height / 2
             fillMode: Image.PreserveAspectFit
-            source: "Assets/archlinux.png"
+            source: "Assets/archlinux.svg"
         }
 
         LoginPanel {
