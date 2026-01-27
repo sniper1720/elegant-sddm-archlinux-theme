@@ -1,2 +1,10 @@
 # Editors
 .vscode/
+*.swp
+
+# User Configuration Overrides
+theme.conf.user
+
+# Build Artifacts
+*.tar.gz
+*.zip
