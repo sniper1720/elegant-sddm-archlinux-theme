@@ -10,5 +10,4 @@ theme.conf.user
 *.zip
 *.pkg.tar.zst
 src/
-
 elegant-sddm-*/
