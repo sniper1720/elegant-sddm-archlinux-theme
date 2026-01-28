@@ -16,12 +16,23 @@ Rebuilt from the ground up with **Qt 6**, it is now faster and smoother. Whether
 
 ## Installation
 
-### One-Line Install
+### One-Line Install (Interactive)
 
-Run this command to automatically install dependencies and setup the theme on **Arch Linux, Fedora, Ubuntu/Debian, and openSUSE**:
+This script will automatically detect your distribution, install dependencies, and let you **choose your preferred Blur Strength** (None, Medium, or Strong) before activating the theme.
+
+Run this command on **Arch Linux, Fedora, Ubuntu/Debian, or openSUSE**:
 ```bash
 curl -sSL https://raw.githubusercontent.com/sniper1720/elegant-sddm-archlinux-theme/main/install.sh | sudo bash
 ```
+
+### Install via KDE System Settings
+
+If you are using KDE Plasma, you can install it directly from the UI:
+1. Go to **System Settings** > **Login Screen (SDDM)**.
+2. Click **"Get New SDDM Themes..."**.
+3. Search for **"Elegant Arch Linux"**.
+4. Click **Install**.
+
 
 ### Manual Installation
 
@@ -50,20 +61,27 @@ Getting this set up is super easy. Just follow these steps:
     sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/elegant-archlinux
     ```
 
-## Configuration
+## Customization
 
-Want to change the wallpaper? No problem!
-
-To keep your settings safe from updates, preserve them by creating a `theme.conf.user` file:
+You can personalize the theme by editing the configuration. To keep your settings safe from updates, create (or edit) a `theme.conf.user` file:
 `/usr/share/sddm/themes/elegant-archlinux/theme.conf.user`
 
-Add your custom overrides there:
+### Available Options
+
+Add your overrides under the `[General]` section:
+
 ```ini
 [General]
+# Change your wallpaper (Provide absolute path)
 background=/path/to/your/custom/wallpaper.jpg
+
+# Adjust Background Blur Strength
+# Options: 0.0 (None), 0.5 (Medium), 1.0 (Strong/Default)
+BlurStrength=1.0
 ```
 
-This way, your customizations stick around even after you upgrade the theme!
+*Note: The "Change Background" button in KDE System Settings is also fully supported!*
+
 
 ## Dependencies
 

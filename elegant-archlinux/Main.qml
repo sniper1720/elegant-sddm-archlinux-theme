@@ -41,7 +41,7 @@ Rectangle {
                 source: bg
                 blurEnabled: true
                 blurMax: 64
-                blur: 1.0
+                blur: config.BlurStrength !== undefined ? config.BlurStrength : 1.0
             }
         }
     }
