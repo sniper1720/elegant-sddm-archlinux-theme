@@ -8,3 +8,7 @@ theme.conf.user
 # Build Artifacts
 *.tar.gz
 *.zip
+*.pkg.tar.zst
+src/
+
+elegant-sddm-*/

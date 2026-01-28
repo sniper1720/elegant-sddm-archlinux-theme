@@ -63,10 +63,20 @@ Getting this set up is super easy. Just follow these steps:
 
 ## Customization
 
-You can personalize the theme by editing the configuration. To keep your settings safe from updates, create (or edit) a `theme.conf.user` file:
+You can customize the theme at any time (even after installation) by running the helper script.
+
+**To change Blur Strength:**
+1.  Navigate to the theme directory: `/usr/share/sddm/themes/elegant-archlinux/`
+2.  Run the customizer:
+    ```bash
+    sudo ./customize.sh
+    ```
+3.  Follow the on-screen prompts.
+
+Alternatively, you can manually edit the configuration file:
 `/usr/share/sddm/themes/elegant-archlinux/theme.conf.user`
 
-### Available Options
+### Manual Options
 
 Add your overrides under the `[General]` section:
 
