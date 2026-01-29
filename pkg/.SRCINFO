@@ -1,6 +1,6 @@
 pkgbase = sddm-theme-elegant-archlinux-git
 	pkgdesc = A simple and elegant SDDM theme for Arch Linux
-	pkgver = 1.2.0.r43.g8b9195b
+	pkgver = 1.2.0.r44.gff0a18c
 	pkgrel = 1
 	url = https://github.com/sniper1720/elegant-sddm-archlinux-theme
 	install = elegant-archlinux.install
