@@ -123,7 +123,7 @@ If you'd like to support the development financially:
 <br><br>
 
 <div align="center">
-  <h3>Bitcoin (BTC) Support</h3>
+  <h4>Bitcoin (BTC) Support</h4>
   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=1ALZQ6F2CkjQMP8rJrUnXgfVdWwbc6RPYu" alt="BTC QR Code" width="150" />
   <p><code>1ALZQ6F2CkjQMP8rJrUnXgfVdWwbc6RPYu</code></p>
 </div>
