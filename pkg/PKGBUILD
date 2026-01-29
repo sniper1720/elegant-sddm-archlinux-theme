@@ -1,7 +1,7 @@
 # Maintainer: Djalel Oukid(sniper1720) <sniper1720@linuxtechmore.com>
 _pkgname=elegant-sddm-archlinux-theme
 pkgname=sddm-theme-elegant-archlinux-git
-pkgver=1.2.0.r51.g3a571dc
+pkgver=1.2.0.r53.gc7fb35f
 pkgrel=1
 pkgdesc="A simple and elegant SDDM theme for Arch Linux"
 arch=('any')
