@@ -25,6 +25,15 @@ Run this command on **Arch Linux, Fedora, Ubuntu/Debian, or openSUSE**:
 curl -sSL https://raw.githubusercontent.com/sniper1720/elegant-sddm-archlinux-theme/main/install.sh | sudo bash
 ```
 
+### Install via AUR (Arcn Linux)
+
+You can easily install this theme from the AUR using your favorite helper (e.g., `yay` or `paru`):
+
+```bash
+yay -S sddm-theme-elegant-archlinux-git
+```
+*Note: After installing from AUR, run `sudo /usr/share/sddm/themes/elegant-archlinux/customize.sh` to customize and activate it!*
+
 ### Install via KDE System Settings
 
 If you are using KDE Plasma, you can install it directly from the UI:
