@@ -32,7 +32,8 @@ You can easily install this theme from the AUR using your favorite helper (e.g.,
 ```bash
 yay -S sddm-theme-elegant-archlinux-git
 ```
-*Note: After installing from AUR, run `sudo /usr/share/sddm/themes/elegant-archlinux/customize.sh` to customize and activate it!*
+> [!NOTE]
+> After installing from AUR, run `sudo /usr/share/sddm/themes/elegant-archlinux/customize.sh` to customize and activate it!
 
 ### Install via KDE System Settings
 
@@ -99,7 +100,8 @@ background=/path/to/your/custom/wallpaper.jpg
 BlurStrength=1.0
 ```
 
-*Note: The "Change Background" button in KDE System Settings is also fully supported!*
+> [!NOTE]
+> The "Change Background" button in KDE System Settings is also fully supported!
 
 
 ## Dependencies
