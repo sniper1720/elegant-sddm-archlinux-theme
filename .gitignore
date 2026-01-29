@@ -11,3 +11,4 @@ theme.conf.user
 *.pkg.tar.zst
 src/
 elegant-sddm-*/
+maintain.sh
