@@ -122,11 +122,10 @@ If you'd like to support the development financially:
 <a href="https://github.com/sponsors/sniper1720"><img src="https://img.shields.io/badge/Become%20a%20Sponsor-bd93f9?style=for-the-badge&logo=github&logoColor=white" height="42" /></a>
 <br><br>
 
-<div align="center">
-  <h4>Bitcoin (BTC) Support</h4>
-  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=1ALZQ6F2CkjQMP8rJrUnXgfVdWwbc6RPYu" alt="BTC QR Code" width="150" />
-  <p><code>1ALZQ6F2CkjQMP8rJrUnXgfVdWwbc6RPYu</code></p>
-</div>
+#### Bitcoin (BTC) Support
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=1ALZQ6F2CkjQMP8rJrUnXgfVdWwbc6RPYu" alt="BTC QR Code" width="150" />
+<br>
+**1ALZQ6F2CkjQMP8rJrUnXgfVdWwbc6RPYu**
 
 ### Contribute & Support
 Financial contributions are not the only way to help! Here are other options:
