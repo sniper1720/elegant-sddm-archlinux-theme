@@ -4,6 +4,9 @@
 
 set -e # Exit on error
 
+# Version prefix (Update this for 1.3.0, 2.0.0, etc.)
+VERSION_PREFIX="1.2.0"
+
 echo "Starting Automated Release..."
 
 # Commit pending changes
@@ -19,10 +22,11 @@ fi
 echo "Calculating version..."
 _count=$(git rev-list --count HEAD)
 _hash=$(git rev-parse --short HEAD)
-_pkgver="1.2.0.r${_count}.g${_hash}"
+_pkgver="${VERSION_PREFIX}.r${_count}.g${_hash}"
 
 echo "   New Version: ${_pkgver}"
 sed -i "s/^pkgver=.*/pkgver=${_pkgver}/" packaging/PKGBUILD
+sed -i "s/^Version=.*/Version=${VERSION_PREFIX}/" elegant-archlinux/metadata.desktop
 
 # Update .SRCINFO
 echo "Updating .SRCINFO..."
