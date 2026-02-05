@@ -5,7 +5,7 @@
 set -e # Exit on error
 
 # Version prefix (Update this for 1.3.0, 2.0.0, etc.)
-VERSION_PREFIX="1.2.0"
+VERSION_PREFIX="1.2.1"
 
 echo "Starting Automated Release..."
 
