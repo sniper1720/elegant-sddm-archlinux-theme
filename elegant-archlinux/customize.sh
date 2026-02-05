@@ -72,8 +72,10 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     
     for f in "$CONFIG_DIR"/*.conf; do
         if [[ "$f" != "$TARGET_CONF" ]] && grep -q "Current=" "$f"; then
-            echo -e "${RED}Warning: Cleaned up conflicting config: $f${NC}"
-            rm "$f"
+            echo -e "${RED}Warning: Found conflicting config: $f${NC}"
+            cp "$f" "${f}.bak.$(date +%F_%T)"
+            sed -i -E 's/^Current=/#Current=/' "$f"
+            echo -e "${GREEN}Backed up and commented out conflict in: $f${NC}"
         fi
     done
 
