@@ -2,7 +2,7 @@
 _pkgname=elegant-sddm-archlinux-theme
 pkgname=sddm-theme-elegant-archlinux-git
 _basever=1.2.1
-pkgver=${_basever}.r77.g50994fd
+pkgver=1.2.1.r79.g324ad1d
 pkgrel=1
 pkgdesc="A simple and elegant SDDM theme for Arch Linux"
 arch=('any')
