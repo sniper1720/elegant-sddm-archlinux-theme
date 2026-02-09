@@ -26,6 +26,7 @@ _pkgver="${VERSION_PREFIX}.r${_count}.g${_hash}"
 
 echo "   New Version: ${_pkgver}"
 sed -i "s/^pkgver=.*/pkgver=${_pkgver}/" packaging/PKGBUILD
+sed -i "s/^_basever=.*/_basever=${VERSION_PREFIX}/" packaging/PKGBUILD
 sed -i "s/^Version=.*/Version=${VERSION_PREFIX}/" elegant-archlinux/metadata.desktop
 
 # Update .SRCINFO
